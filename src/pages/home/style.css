@@ -1,0 +1,42 @@
+.product-list {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+table {
+    margin: 3em auto;
+    width: 50%;
+    text-align: center;
+    border-collapse: collapse;
+    
+  }
+
+th,td  {
+    height: 50px;
+    padding: 8px;
+}
+
+th {
+    background-color: rgb(27, 140, 206);
+    color: white;
+}
+
+  tbody:nth-child(odd) {background-color: #cec9c944;}
+
+
+a {
+      text-decoration: none;
+      padding: 10px 30px;
+      border-radius: 5px;
+      color: rgb(27, 140, 206);
+      transition: all 0.2s;
+      font-weight: bold;
+  }
+
+a:hover {
+    background: rgb(27, 140, 206);
+    color: #ffffff;
+    cursor: pointer;
+  
+}
