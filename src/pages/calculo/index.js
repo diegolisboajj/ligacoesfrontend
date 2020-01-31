@@ -13,6 +13,6 @@ export default class Calculo extends Component {
     }
 
     render() {
-        return <h1>Resultado Parcial</h1>
+        return <h1>Resultado</h1>
     } 
 }
